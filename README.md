@@ -33,6 +33,6 @@ each instruction, along with an associated final output vector for each register
 are found inside the Python scripts in `tests/`. 
 
 ### Credit
-This course was taught by Dr. Jason. D. Bakos in the Fall of 2021; the Teaching Assistants 
+This course was taught by Dr. Jason. D. Bakos in the Fall of 2020; the Teaching Assistants 
 were Charles Daniels and Philip Conrad. The simulated hardware, configs, interfaces, ALU and 32x32-bit
 memory vectors were provided as course materials.
