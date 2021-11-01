@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# hdl
-=======
 # RISC-V Microarchitecture
 
 Implements a 32-bit RISC-V processor with a three stage pipeline, using a subset of the RV32I instruction set. Project was used 
@@ -39,4 +36,3 @@ are found inside the Python scripts in `tests/`.
 This course was taught by Dr. Jason. D. Bakos in the Fall of 2021; the Teaching Assistants 
 were Charles Daniels and Philip Conrad. The simulated hardware, configs, interfaces, ALU and 32x32-bit
 memory vectors were provided as course materials.
->>>>>>> 3ca78dc... removed personal info

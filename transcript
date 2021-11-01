@@ -1,0 +1,39 @@
+# vsim -pedanticerrors -c -sva -immedassert work.regfile_testtop -do "/dev/stdin" 
+# Start time: 17:14:36 on Oct 30,2020
+# Loading sv_std.std
+# Loading work.regfile_testtop
+# Loading work.regfile32x32
+# do /dev/stdin
+# DEBUG: vecno=0 clk=0 index=0x0000 readdata1=0x00000000 readdata2=0x00000000
+# DEBUG: vecno=1 clk=1 writedata=0xdeadbeef readdata1_exp=0x00000000 readdata2_exp=0x00000000 writeaddr=0x02 readaddr1=0x00 readaddr2=0x00 we=1 index=0x0000 mark=0x2
+# DEBUG: vecno=1 clk=0 index=0x0000 readdata1=0x00000000 readdata2=0x00000000
+# DEBUG: vecno=2 clk=1 writedata=0x00000000 readdata1_exp=0xdeadbeef readdata2_exp=0x00000000 writeaddr=0x00 readaddr1=0x00 readaddr2=0x02 we=0 index=0x0001 mark=0x1
+# DEBUG: vecno=2 clk=0 index=0x0001 readdata1=0xdeadbeef readdata2=0x00000000
+# DEBUG: vecno=3 clk=1 writedata=0x00000000 readdata1_exp=0x00000000 readdata2_exp=0xdeadbeef writeaddr=0x00 readaddr1=0x02 readaddr2=0x00 we=0 index=0x0002 mark=0x1
+# DEBUG: vecno=3 clk=0 index=0x0002 readdata1=0x00000000 readdata2=0xdeadbeef
+# DEBUG: vecno=4 clk=1 writedata=0x00000000 readdata1_exp=0xdeadbeef readdata2_exp=0xdeadbeef writeaddr=0x00 readaddr1=0x02 readaddr2=0x02 we=0 index=0x0003 mark=0x1
+# DEBUG: vecno=4 clk=0 index=0x0003 readdata1=0xdeadbeef readdata2=0xdeadbeef
+# DEBUG: vecno=5 clk=1 writedata=0x12345678 readdata1_exp=0x12345678 readdata2_exp=0x12345678 writeaddr=0x01 readaddr1=0x01 readaddr2=0x01 we=1 index=0x0004 mark=0x1
+# DEBUG: vecno=5 clk=0 index=0x0004 readdata1=0x12345678 readdata2=0x12345678
+# DEBUG: vecno=6 clk=1 writedata=0xcafecafe readdata1_exp=0xcafecafe readdata2_exp=0xcafecafe writeaddr=0x0f readaddr1=0x0f readaddr2=0x0f we=1 index=0x0005 mark=0x1
+# DEBUG: vecno=6 clk=0 index=0x0005 readdata1=0xcafecafe readdata2=0xcafecafe
+# DEBUG: vecno=7 clk=1 writedata=0x00000000 readdata1_exp=0x12345678 readdata2_exp=0xcafecafe writeaddr=0x00 readaddr1=0x0f readaddr2=0x01 we=0 index=0x0006 mark=0x1
+# DEBUG: vecno=7 clk=0 index=0x0006 readdata1=0x12345678 readdata2=0xcafecafe
+# DEBUG: vecno=8 clk=1 writedata=0x8badf00d readdata1_exp=0x00000000 readdata2_exp=0x00000000 writeaddr=0x00 readaddr1=0x00 readaddr2=0x00 we=1 index=0x0007 mark=0x1
+# DEBUG: vecno=8 clk=0 index=0x0007 readdata1=0x00000000 readdata2=0x00000000
+# DEBUG: vecno=9 clk=1 writedata=0x00000000 readdata1_exp=0x00000000 readdata2_exp=0x00000000 writeaddr=0x00 readaddr1=0x00 readaddr2=0x00 we=0 index=0x0008 mark=0x1
+# DEBUG: vecno=9 clk=0 index=0x0008 readdata1=0x00000000 readdata2=0x00000000
+# DEBUG: vecno=10 clk=1 writedata=0x00000000 readdata1_exp=0x00000000 readdata2_exp=0x00000000 writeaddr=0x03 readaddr1=0x03 readaddr2=0x03 we=1 index=0x0009 mark=0x1
+# DEBUG: vecno=10 clk=0 index=0x0009 readdata1=0x00000000 readdata2=0x00000000
+# DEBUG: vecno=11 clk=1 writedata=0x00000000 readdata1_exp=0x00000000 readdata2_exp=0x00000000 writeaddr=0x00 readaddr1=0x03 readaddr2=0x03 we=0 index=0x000a mark=0x1
+# DEBUG: vecno=11 clk=0 index=0x000a readdata1=0x00000000 readdata2=0x00000000
+# DEBUG: vecno=12 clk=1 writedata=0xfadecafe readdata1_exp=0x00000000 readdata2_exp=0x00000000 writeaddr=0x03 readaddr1=0x03 readaddr2=0x03 we=0 index=0x000b mark=0x1
+# DEBUG: vecno=12 clk=0 index=0x000b readdata1=0x00000000 readdata2=0x00000000
+# DEBUG: vecno=13 clk=1 writedata=0x00000000 readdata1_exp=0x00000000 readdata2_exp=0x00000000 writeaddr=0x00 readaddr1=0x03 readaddr2=0x03 we=0 index=0x000c mark=0x1
+# DEBUG: vecno=13 clk=0 index=0x000c readdata1=0x00000000 readdata2=0x00000000
+# DEBUG: vecno=14 clk=1 writedata=0x00000000 readdata1_exp=0x00000000 readdata2_exp=0x00000000 writeaddr=0x00 readaddr1=0x00 readaddr2=0x00 we=0 index=0x0000 mark=0x4
+# DEBUG: errcount=0 okcount=12
+# ** Note: $finish    : ./testbench/regfile_testtop.sv(129)
+#    Time: 145 ps  Iteration: 1  Instance: /regfile_testtop
+# End time: 17:14:36 on Oct 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
